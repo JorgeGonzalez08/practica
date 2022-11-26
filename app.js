@@ -19,3 +19,8 @@ btnSi.addEventListener('click', function(e){
     const cancion = new Audio('img\\modo_hot.mp3');
     cancion.play;
 });
+
+// window.addEventListener('beforeunload', (event) => {
+//     event.preventDefault();
+//     event.returnValue = "";
+// });
